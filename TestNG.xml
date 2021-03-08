@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+<parameter name="browser" value="chrome"></parameter>  
+  <test name="Test">
+    <classes>
+    //test create account
+      <class name="tests.HotelFilterationTest"/>
+    </classes>
+  </test> 
+</suite> 

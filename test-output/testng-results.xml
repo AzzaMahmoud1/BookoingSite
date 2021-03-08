@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19805" started-at="2021-03-08T01:21:50 EET" finished-at="2021-03-08T01:22:10 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19805" started-at="2021-03-08T01:21:50 EET" finished-at="2021-03-08T01:22:10 EET">
+      <class name="tests.HotelFilterationTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.HotelFilterationTest@1b68ddbd]" name="startDriver" is-config="true" duration-ms="12761" started-at="2021-03-08T01:21:38 EET" finished-at="2021-03-08T01:21:50 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="Search()[pri:1, instance:tests.HotelFilterationTest@1b68ddbd]" name="Search" duration-ms="13304" started-at="2021-03-08T01:21:50 EET" finished-at="2021-03-08T01:22:04 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.HotelFilterationTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-03-08T01:22:04 EET" finished-at="2021-03-08T01:22:04 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=HotelFilterationTest.Search()[pri:1, instance:tests.HotelFilterationTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="hotelFilteration()[pri:0, instance:tests.HotelFilterationTest@1b68ddbd]" name="hotelFilteration" duration-ms="6480" started-at="2021-03-08T01:22:04 EET" depends-on-methods="tests.HotelFilterationTest.Search" finished-at="2021-03-08T01:22:10 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hotelFilteration -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.HotelFilterationTest@1b68ddbd]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-03-08T01:22:10 EET" finished-at="2021-03-08T01:22:10 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=hotelFilteration status=SUCCESS method=HotelFilterationTest.hotelFilteration()[pri:0, instance:tests.HotelFilterationTest@1b68ddbd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:tests.HotelFilterationTest@1b68ddbd]" name="afterSuite" is-config="true" duration-ms="637" started-at="2021-03-08T01:22:10 EET" finished-at="2021-03-08T01:22:11 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- tests.HotelFilterationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
